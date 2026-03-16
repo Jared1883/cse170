@@ -1,5 +1,10 @@
 /* Webpage CSS file */
 
+.ranchers-regular {
+  font-family: "Ranchers", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 /*header CSS*/
     header img {
         width: 200px;
@@ -8,6 +13,13 @@
     header img:hover {
         transform: matrix(1, 0.3, 0, 1, 0, 50) translateX(500px) scale(1.5);
     }
+    header hr {
+        width: 99%;
+    }
+    header h1 {
+        font-family: 'Ranchers';
+        letter-spacing: 1px;
+    }
 
 /*body CSS*/
     main ul {
@@ -15,8 +27,13 @@
         justify-items: center;
         gap: 5px;
     }
-    li {
-        
+    main li {
+        margin: 10px;
+        background-color: bisque;
+    }
+    main button {
+        background-color: aliceblue;
+        color: black;
     }
 
 /*footer CSS*/
