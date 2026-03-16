@@ -1,13 +1,26 @@
 /* Webpage CSS file */
-header img {
-    width: 200px;
-<<<<<<< HEAD
-}
-=======
-    transition: transform 1s;
-}
-header img:hover {
-    transform: matrix(1, 0.3, 0, 1, 0, 50) translateX(500px) scale(1.5);
-}
 
->>>>>>> 8bb62b68c1e1ee7f84c36b847e7043af65d7fd90
+/*header CSS*/
+    header img {
+        width: 200px;
+        transition: transform 1s;
+    }
+    header img:hover {
+        transform: matrix(1, 0.3, 0, 1, 0, 50) translateX(500px) scale(1.5);
+    }
+
+/*body CSS*/
+    main ul {
+        display: grid;
+        justify-items: center;
+        gap: 5px;
+    }
+    li {
+        
+    }
+
+/*footer CSS*/
+    .social img {
+        width: 50px;
+    }
+
