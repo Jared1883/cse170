@@ -66,13 +66,14 @@
         margin: 10px;
         background-color: bisque;
     }
-    #details {
-        grid-column: 1 / 3;
-    }
     #faq div {
         border: 2px solid black;
         padding: 10px;
         margin: 10px;
+    }
+    #details {
+        grid-column: 1 / 3;
+        margin-bottom: 5px;
     }
 
 /*footer CSS*/
