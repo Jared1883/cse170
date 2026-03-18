@@ -1,10 +1,10 @@
 /* Webpage CSS file */
-
 .ranchers-regular {
     font-family: "Ranchers", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 /*header CSS*/
     header {
     display: grid;
@@ -94,9 +94,7 @@
     #details p {
         margin: 10px;
     }
-    #name {
-        /* justify-self: left; */
-    }
+
 
 /*footer CSS*/
     .social img {
