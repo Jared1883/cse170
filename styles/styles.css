@@ -334,6 +334,8 @@ button:hover {
     }
     .social-links {
         gap: 12px;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
     .instructions {
         max-width: 100%;
@@ -346,4 +348,5 @@ button:hover {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
 }
